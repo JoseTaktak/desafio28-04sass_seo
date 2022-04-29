@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+header {
+    background-color: beige;
+    border-radius: 1px solid beige;
+    
+}
+
+.header-container {
+    padding: 15px 0 5px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 240px;
+    
+}
+
+.row-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 220px;
+}
+
+.redes-container {
+    padding: 0 15px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+
+.nav-menu {
+    background-color: rgba(48, 95, 93, 0.918);
+    margin: 15px;
+    font-weight: bold;
+}
+
+
+
+.h1-container {
+    background-color: rgba(209, 209, 32, 0.664);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.h1-h-container {
+    text-align: end;
+    padding: 15px;
+}
+
+.fizq {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    size: 15px;
+}
+
+.fizq-items {
+    display: flex;
+    
+}
+.foP {
+    background-color: beige;
+    
+display: flex;
+justify-content: center;
+padding: 20px;
+margin-top: 5px;
+}
+
+.F-redes-container {
+    padding: 0 15px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
